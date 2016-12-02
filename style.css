@@ -8,4 +8,13 @@ body {
 p {
   font-weight: 100;
   line-height: 1.6rem;
-  color: #333; }
+  color: #444; }
+  p a {
+    color: #00A5E9; }
+
+h2, h3 {
+  padding-top: 1rem;
+  color: #1ba294; }
+
+article h2:first-child {
+  padding-top: 0; }

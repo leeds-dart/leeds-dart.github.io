@@ -77,7 +77,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "<header>\n  <img src=\"images/logo-square.svg\" class=\"logo\" />\n  <h1>leeds.dart</h1>\n</header>\n<nav>\n  <ul>\n    <li><a [routerLink]=\"['Events']\">Events</a></li>\n    <li><a [routerLink]=\"['News']\">News</a></li>\n    <li><a [routerLink]=\"['About']\">About</a></li>\n  </ul>\n</nav>\n<article>\n  <router-outlet></router-outlet>\n</article>\n<footer>\n  Dart user group for Leeds, UK\n</footer>\n",
+        "template": "<header>\n  <img src=\"images/logo-square.svg\" class=\"logo\" />\n  <h1>leeds.dart</h1>\n</header>\n<nav>\n  <ul>\n    <li><a [routerLink]=\"['Events']\">Events</a></li>\n    <li><a [routerLink]=\"['News']\">News</a></li>\n    <li><a [routerLink]=\"['About']\">About</a></li>\n    <!-- <li><a href=\"https://gitter.im/leeds-dart/Lobby\" target=\"_NEW\">Gitter Chat</a></li> -->\n  </ul>\n</nav>\n<article>\n  <router-outlet></router-outlet>\n</article>\n<footer>\n  Dart user group for Leeds, UK\n</footer>\n",
         "templateUrl": "asset:leeds_dart/lib/components/app/app.component.html",
         "styles": [],
         "styleUrls": [

@@ -59,7 +59,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "<p>News Page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lacus vitae metus malesuada laoreet vel quis lectus. Quisque placerat, massa nec efficitur ornare, quam ipsum tincidunt dui, nec vulputate orci sem sit amet nibh. Donec tempor, erat nec placerat rhoncus, elit risus suscipit nibh, vestibulum porttitor ante lacus at odio.</p>\n",
+        "template": "<h2>leeds.dart news</h2>\n<p>Will pull tweets from twitter here</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lacus vitae metus malesuada laoreet vel quis lectus. Quisque placerat, massa nec efficitur ornare, quam ipsum tincidunt dui, nec vulputate orci sem sit amet nibh. Donec tempor, erat nec placerat rhoncus, elit risus suscipit nibh, vestibulum porttitor ante lacus at odio.</p>\n",
         "templateUrl": "asset:leeds_dart/lib/components/news/news.component.html",
         "styles": [],
         "styleUrls": [

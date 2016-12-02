@@ -19,7 +19,7 @@ nav {
     text-align: center; }
     nav ul li {
       display: inline-block;
-      padding: 1rem 1.5rem; }
+      padding: 1rem 0.75rem; }
       nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
@@ -28,12 +28,12 @@ nav {
 article {
   padding: 2rem;
   margin: 0 auto;
-  max-width: 50rem;
+  max-width: 40rem;
   font-family: 'Roboto'; }
 
 footer {
   width: 100%;
-  background-color: #5AE3D5;
+  background-color: #2edcca;
   color: #fff;
   text-align: center;
   padding: 1rem;
