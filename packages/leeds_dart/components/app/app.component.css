@@ -18,12 +18,17 @@ nav {
     text-indent: 0;
     text-align: center; }
     nav ul li {
-      display: inline-block;
-      padding: 1rem 0.75rem; }
+      display: inline-block; }
       nav ul li a {
+        display: inline-block;
         text-transform: uppercase;
         text-decoration: none;
-        color: #fff; }
+        color: #fff;
+        padding: 1rem 0.75rem;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s; }
+        nav ul li a.router-link-active {
+          background-color: #0093d0; }
 
 article {
   padding: 2rem;
