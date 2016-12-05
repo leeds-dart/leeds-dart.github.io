@@ -1,18 +1,22 @@
-<header>
-  <img src="images/logo-square.svg" class="logo" />
-  <h1>leeds.dart</h1>
-</header>
-<nav>
-  <ul>
-    <li><a [routerLink]="['Events']" routerLinkActive="active">Events</a></li>
-    <li><a [routerLink]="['News']" routerLinkActive="active">News</a></li>
-    <li><a [routerLink]="['About']" routerLinkActive="active">About</a></li>
-    <!-- <li><a href="https://gitter.im/leeds-dart/Lobby" target="_NEW">Gitter Chat</a></li> -->
-  </ul>
-</nav>
-<article>
-  <router-outlet></router-outlet>
-</article>
-<footer>
-  Dart user group for Leeds, UK
-</footer>
+<div id="app">
+  <header>
+    <img src="images/logo-horizontal.svg" class="logo-horizontal" />
+    <img src="images/logo-square.svg" class="logo-square" />
+    <h1>leeds.dart</h1>
+    <nav>
+      <ul>
+      <li><a [routerLink]="['About']" routerLinkActive="active">About</a></li>
+        <li><a [routerLink]="['Events']" routerLinkActive="active">Events</a></li>
+        <li><a [routerLink]="['News']" routerLinkActive="active">News</a></li>
+        <!-- <li><a href="https://gitter.im/leeds-dart/Lobby" target="_NEW">Gitter Chat</a></li> -->
+      </ul>
+    </nav>
+
+  </header>
+  <article>
+    <router-outlet></router-outlet>
+  </article>
+  <footer>
+    Dart user group for Leeds, UK
+  </footer>
+</div>

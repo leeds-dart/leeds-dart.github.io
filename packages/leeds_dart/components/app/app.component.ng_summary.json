@@ -19,15 +19,19 @@
         "5": false
       },
       {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:leeds_dart/components/about/about.component.dart",
+        "5": false
+      },
+      {
         "1": "package:leeds_dart/components/events/events.component.dart",
         "5": false
       },
       {
         "1": "package:leeds_dart/components/news/news.component.dart",
-        "5": false
-      },
-      {
-        "1": "package:leeds_dart/components/about/about.component.dart",
         "5": false
       }
     ],
@@ -38,10 +42,13 @@
           {
             "1": "RouteConfig",
             "2": [
-              "const [const Route(path: '/', name: 'Events', component: EventsComponent, useAsDefault: true), const Route(path: '/news', name: 'News', component: NewsComponent), const Route(path: '/about', name: 'About', component: AboutComponent)]"
+              "const [const Route(path: '/', name: 'About', component: AboutComponent, useAsDefault: true), const Route(path: '/events', name: 'Events', component: EventsComponent), const Route(path: '/news', name: 'News', component: NewsComponent)]"
             ],
             "4": false
           }
+        ],
+        "6": [
+          "OnInit"
         ],
         "7": [
           {
@@ -74,10 +81,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": {
         "encapsulation": 0,
-        "template": "<header>\n  <img src=\"images/logo-square.svg\" class=\"logo\" />\n  <h1>leeds.dart</h1>\n</header>\n<nav>\n  <ul>\n    <li><a [routerLink]=\"['Events']\" routerLinkActive=\"active\">Events</a></li>\n    <li><a [routerLink]=\"['News']\" routerLinkActive=\"active\">News</a></li>\n    <li><a [routerLink]=\"['About']\" routerLinkActive=\"active\">About</a></li>\n    <!-- <li><a href=\"https://gitter.im/leeds-dart/Lobby\" target=\"_NEW\">Gitter Chat</a></li> -->\n  </ul>\n</nav>\n<article>\n  <router-outlet></router-outlet>\n</article>\n<footer>\n  Dart user group for Leeds, UK\n</footer>\n",
+        "template": "<div id=\"app\">\n  <header>\n    <img src=\"images/logo-horizontal.svg\" class=\"logo-horizontal\" />\n    <img src=\"images/logo-square.svg\" class=\"logo-square\" />\n    <h1>leeds.dart</h1>\n    <nav>\n      <ul>\n      <li><a [routerLink]=\"['About']\" routerLinkActive=\"active\">About</a></li>\n        <li><a [routerLink]=\"['Events']\" routerLinkActive=\"active\">Events</a></li>\n        <li><a [routerLink]=\"['News']\" routerLinkActive=\"active\">News</a></li>\n        <!-- <li><a href=\"https://gitter.im/leeds-dart/Lobby\" target=\"_NEW\">Gitter Chat</a></li> -->\n      </ul>\n    </nav>\n\n  </header>\n  <article>\n    <router-outlet></router-outlet>\n  </article>\n  <footer>\n    Dart user group for Leeds, UK\n  </footer>\n</div>\n",
         "templateUrl": "asset:leeds_dart/lib/components/app/app.component.html",
         "styles": [],
         "styleUrls": [
