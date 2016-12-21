@@ -7,6 +7,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "provide"
+        ],
+        "5": false
+      },
+      {
         "1": "package:http/browser_client.dart",
         "5": false
       },
@@ -22,8 +29,12 @@
         "4": "i0"
       },
       {
-        "1": "package:leeds_dart/components/app/app.component.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:leeds_dart/components/app/app.component.template.dart",
+        "4": "i2"
       }
     ]
   },

@@ -7,6 +7,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "provide"
+        ],
+        "5": false
+      },
+      {
         "1": "package:http/browser_client.dart",
         "5": false
       },

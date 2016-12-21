@@ -1,3 +1,8 @@
 <h2>leeds.dart news</h2>
-<p>Will pull tweets from twitter here</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lacus vitae metus malesuada laoreet vel quis lectus. Quisque placerat, massa nec efficitur ornare, quam ipsum tincidunt dui, nec vulputate orci sem sit amet nibh. Donec tempor, erat nec placerat rhoncus, elit risus suscipit nibh, vestibulum porttitor ante lacus at odio.</p>
+<p>News pulled from <a href="https://twitter.com/leeds_dart" target="_blank">@leeds_dart</a> on twitter, please follow us!</p>
+<section id="twitter-container">
+  <div *ngFor="let tweet of tweets" class="tweet">
+    <p>{{tweet['body']}}</p>
+    <div class="tweet-date"><img src="https://pbs.twimg.com/profile_images/805840144506953728/1fHCKABQ.jpg" /> Tweeted on <span>{{tweet['date']}}</span></div>
+  </div>
+</section>

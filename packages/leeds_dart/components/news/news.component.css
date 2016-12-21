@@ -1,0 +1,17 @@
+.tweet {
+  background-color: #004b6a;
+  margin: 2rem 0;
+  padding: 0.5rem 1rem; }
+  .tweet p {
+    color: #fff;
+    white-space: pre-wrap; }
+  .tweet .tweet-date {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: #0093d0; }
+    .tweet .tweet-date img {
+      max-height: 2rem;
+      max-width: 2rem;
+      vertical-align: middle;
+      margin-right: 0.5rem; }
