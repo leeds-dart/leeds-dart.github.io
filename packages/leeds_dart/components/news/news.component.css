@@ -1,5 +1,5 @@
 .tweet {
-  background-color: #004b6a;
+  background-color: #005d83;
   margin: 2rem 0;
   padding: 0.5rem 1rem; }
   .tweet p {
@@ -9,7 +9,7 @@
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
     margin-top: 1rem;
-    color: #0093d0; }
+    color: #6ad3ff; }
     .tweet .tweet-date img {
       max-height: 2rem;
       max-width: 2rem;

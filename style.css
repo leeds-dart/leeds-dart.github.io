@@ -1,5 +1,5 @@
 body {
-  background-color: #002737;
+  background-color: #004b6a;
   font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
@@ -8,13 +8,13 @@ body {
 p {
   font-weight: 100;
   line-height: 1.6rem;
-  color: #c8e2ed; }
+  color: #dbecf3; }
   p a {
     color: #1dbdff; }
 
 h2, h3 {
   padding-top: 1rem;
-  color: #23cebc; }
+  color: #5AE3D5; }
 
 article h2:first-child {
   padding-top: 0; }
