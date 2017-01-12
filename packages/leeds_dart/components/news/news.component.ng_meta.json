@@ -16,10 +16,6 @@
         "5": false
       },
       {
-        "1": "dart:html",
-        "5": false
-      },
-      {
         "1": "package:angular2/core.dart",
         "5": false
       },
@@ -41,11 +37,6 @@
           "LocationStrategy",
           "HashLocationStrategy"
         ],
-        "5": false
-      },
-      {
-        "1": "package:jsonp/jsonp.dart",
-        "4": "jsonp",
         "5": false
       }
     ],
@@ -116,7 +107,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<h2>leeds.dart news</h2>\n<p>News pulled from <a href=\"https://twitter.com/leeds_dart\" target=\"_blank\">@leeds_dart</a> on twitter, please follow us!</p>\n<section id=\"twitter-container\">\n  <div *ngFor=\"let tweet of tweets\" class=\"tweet\">\n    <p>{{tweet['body']}}</p>\n    <div class=\"tweet-date\"><img src=\"https://pbs.twimg.com/profile_images/805840144506953728/1fHCKABQ.jpg\" /> Tweeted on <span>{{tweet['date']}}</span></div>\n  </div>\n</section>\n",
+        "template": "<h2>leeds.dart news</h2>\n<p>News will be pulled from <a href=\"https://twitter.com/leeds_dart\" target=\"_blank\">@leeds_dart</a> on twitter (sorry this isn't implemented yet!), please follow us!</p>\n",
         "templateUrl": "asset:leeds_dart/lib/components/news/news.component.html",
         "styles": [],
         "styleUrls": [

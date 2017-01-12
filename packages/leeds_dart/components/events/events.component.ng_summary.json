@@ -17,11 +17,28 @@
       {
         "1": "package:angular2_components/angular2_components.dart",
         "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/eventbrite.service.dart",
+        "5": false
       }
     ],
     "5": [
       {
         "1": "EventsComponent",
+        "5": [
+          {
+            "1": "EventbriteService",
+            "4": "eventbrite"
+          }
+        ],
+        "6": [
+          "OnInit"
+        ],
         "7": [
           {
             "2": "ROUTER_DIRECTIVES"
@@ -47,7 +64,30 @@
         "prefix": null,
         "isHost": false,
         "value": null,
-        "diDeps": []
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "EventbriteService",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "query": null,
+            "viewQuery": null,
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
       },
       "changeDetection": 6,
       "inputs": {},
@@ -56,10 +96,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": {
         "encapsulation": 0,
-        "template": "<h2>Upcomming events</h2>\n<p>Will pull events from eventbrite here</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lacus vitae metus malesuada laoreet vel quis lectus. Quisque placerat, massa nec efficitur ornare, quam ipsum tincidunt dui, nec vulputate orci sem sit amet nibh. Donec tempor, erat nec placerat rhoncus, elit risus suscipit nibh, vestibulum porttitor ante lacus at odio.</p>\n",
+        "template": "<h2>Upcomming events</h2>\n<p>The events below are being pulled from <a href=\"https://www.eventbrite.co.uk/o/leedsdart-12690248238\">Eventbrite</a>, you can also find us over at <a href=\"https://www.meetup.com/leeds-dart/\">meetup</a>.</p>\n\n<section class=\"events\">\n  <!-- [routerLink]=\"['Event', {ref: event['id']}]\" -->\n    <div *ngFor=\"#event of events\" class=\"event\" >\n\n      <div class=\"details\">\n        <h3><span class=\"name\">{{event.name}}</span></h3>\n        <p>{{event.descriptionSummary}}</p>\n        <section class=\"event-footer\">\n          <div class=\"when\">{{event.dateTime}}</div>\n          <material-button raised class=\"button branded\" (trigger)=\"eventTrigger(event)\" >View on Eventbrite</material-button>\n        </section>\n      </div>\n\n    </div>\n\n</section>\n",
         "templateUrl": "asset:leeds_dart/lib/components/events/events.component.html",
         "styles": [],
         "styleUrls": [
@@ -71,6 +113,13 @@
         {
           "class": "Identifier",
           "name": "materialProviders",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "EventbriteService",
           "moduleUrl": null,
           "prefix": null,
           "value": null

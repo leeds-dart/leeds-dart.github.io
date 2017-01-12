@@ -20,6 +20,10 @@
       {
         "1": "package:leeds_dart/components/app/app.component.dart",
         "5": false
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/eventbrite.service.dart",
+        "5": false
       }
     ],
     "6": "main.dart",
@@ -35,6 +39,10 @@
       {
         "1": "package:leeds_dart/components/app/app.component.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/eventbrite.service.template.dart",
+        "4": "i3"
       }
     ]
   },

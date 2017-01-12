@@ -1,20 +1,24 @@
 body {
-  background-color: #004b6a;
+  background-color: #f2f9fb;
   font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
   line-spacing: 1.6rem; }
 
+material-button.branded, material-fab.branded, material-fab.branded glyph {
+  background-color: #00A5E9 !important;
+  color: white; }
+
 p {
   font-weight: 100;
   line-height: 1.6rem;
-  color: #dbecf3; }
+  color: #0d5776; }
   p a {
-    color: #1dbdff; }
+    color: #0093d0; }
 
 h2, h3 {
   padding-top: 1rem;
-  color: #5AE3D5; }
+  color: #09b5a3; }
 
 article h2:first-child {
   padding-top: 0; }

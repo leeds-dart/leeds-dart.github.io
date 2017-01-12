@@ -1,0 +1,23 @@
+.events {
+  padding-top: 1rem; }
+
+.event {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: block; }
+  .event h3 {
+    color: #222;
+    padding-top: 0; }
+  .event p {
+    color: #555; }
+  .event .event-footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem; }
+    .event .event-footer .button, .event .event-footer .when {
+      flex: 1; }
+    .event .event-footer .when {
+      font-weight: bold;
+      padding-top: 0.5rem;
+      color: #1fb8a8; }

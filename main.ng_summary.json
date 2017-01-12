@@ -20,6 +20,10 @@
       {
         "1": "package:leeds_dart/components/app/app.component.dart",
         "5": false
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/eventbrite.service.dart",
+        "5": false
       }
     ],
     "6": "main.dart"

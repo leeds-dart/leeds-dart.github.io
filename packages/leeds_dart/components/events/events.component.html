@@ -1,3 +1,19 @@
 <h2>Upcomming events</h2>
-<p>Will pull events from eventbrite here</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lacus vitae metus malesuada laoreet vel quis lectus. Quisque placerat, massa nec efficitur ornare, quam ipsum tincidunt dui, nec vulputate orci sem sit amet nibh. Donec tempor, erat nec placerat rhoncus, elit risus suscipit nibh, vestibulum porttitor ante lacus at odio.</p>
+<p>The events below are being pulled from <a href="https://www.eventbrite.co.uk/o/leedsdart-12690248238">Eventbrite</a>, you can also find us over at <a href="https://www.meetup.com/leeds-dart/">meetup</a>.</p>
+
+<section class="events">
+  <!-- [routerLink]="['Event', {ref: event['id']}]" -->
+    <div *ngFor="#event of events" class="event" >
+
+      <div class="details">
+        <h3><span class="name">{{event.name}}</span></h3>
+        <p>{{event.descriptionSummary}}</p>
+        <section class="event-footer">
+          <div class="when">{{event.dateTime}}</div>
+          <material-button raised class="button branded" (trigger)="eventTrigger(event)" >View on Eventbrite</material-button>
+        </section>
+      </div>
+
+    </div>
+
+</section>

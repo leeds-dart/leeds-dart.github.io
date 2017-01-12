@@ -1,0 +1,111 @@
+{
+  "ngDeps": {
+    "1": "leeds_dart.services.eventbrite",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "dart:convert",
+        "2": [
+          "UTF8",
+          "JSON",
+          "AsciiCodec"
+        ],
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:crypto/crypto.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:http/browser_client.dart",
+        "5": false
+      },
+      {
+        "1": "package:http/http.dart",
+        "5": false
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/models/event.model.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "EventbriteService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "BrowserClient",
+            "4": "_http"
+          }
+        ]
+      }
+    ],
+    "6": "eventbrite.service.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:leeds_dart/services/eventbrite/models/event.model.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "EventbriteService": {
+      "class": "Type",
+      "name": "EventbriteService",
+      "moduleUrl": "asset:leeds_dart/lib/services/eventbrite/eventbrite.service.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "BrowserClient",
+              "moduleUrl": "package:http/browser_client.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "query": null,
+          "viewQuery": null,
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    }
+  },
+  "alias": {}
+}
